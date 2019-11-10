@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 588
-  m_MinSize: {x: 713, y: 494}
+  m_MinSize: {x: 753, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 738
+  controlID: 121
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 765
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,14 +216,14 @@ MonoBehaviour:
     y: 0
     width: 286
     height: 588
-  m_MinSize: {x: 204, y: 222}
+  m_MinSize: {x: 244, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,9 +367,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 32.927223, y: -3.2841988, z: -1108.4141}
+    m_Target: {x: -1.685335, y: 1.3155932, z: -2010.9702}
     speed: 2
-    m_Value: {x: 32.927223, y: -3.2841988, z: -1108.4141}
+    m_Value: {x: -1.3799388, y: 1.3928001, z: -2010.9376}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -402,9 +402,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 59.44497
+    m_Target: 8.65005
     speed: 2
-    m_Value: 56.88514
+    m_Value: 9.057644
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_ShowGlobalGrid: 1
+  m_ShowGlobalGrid: 0
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -562,20 +562,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites/Things
   m_ViewMode: 1
   m_StartGridSize: 36
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites/Things
   m_LastFoldersGridSize: 36
   m_LastProjectPath: C:\Users\legof\Documents\My Games\GDJam\GDJam1\GDJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 302f0000
-    m_LastClickedID: 12080
-    m_ExpandedIDs: 00000000042d00005030000000ca9a3b
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: 5c300000
+    m_LastClickedID: 12380
+    m_ExpandedIDs: 00000000102d0000ca2e0000022f00005c30000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +603,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000042d00005030000000ca9a3b
+    m_ExpandedIDs: 00000000102d00005c300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c2c0ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -714,9 +714,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e350000
-      m_LastClickedID: 13598
-      m_ExpandedIDs: ecf6ffff16f7ffffb4f7ffff66fbfffffa3100002e3200000e3500004e350000
+      m_SelectedIDs: 6a4a0000824a00007a4a0000724a0000584a0000664a00006e4a0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36bcffffdad0ffff16d1ffffb4d1ffff3cedffffb4efffff32f6ffffa4faffff5efbffffd63200001033000026380000e839000052420000a4420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
