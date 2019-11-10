@@ -134,7 +134,7 @@ public class Platform : MonoBehaviour
                 if (temp.x < (width) / 2 && temp.x > -(width) / 2 && temp.y > 0.5 && temp.y < 2.45)
                     platformy = -speed;
 
-                if (platformPos.y <= FinalPositionY)
+                if (platformPos.y <= finalPosY)
                     platformy = speed;
 
             }
