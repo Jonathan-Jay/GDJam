@@ -38,7 +38,7 @@ public class Move : MonoBehaviour
             inAir = true;
         }
         
-        rigidbody2D.AddRelativeForce(Vector2.down * Gravity + Vector2.right * xvelocity * speed);
+        rigidbody2D.AddRelativeForce(Vector2.down * Gravity * 50 * Time.deltaTime + Vector2.right * xvelocity * speed * 50 * Time.deltaTime);
 
         GetComponent<Transform>().rotation = Quaternion.identity;
 

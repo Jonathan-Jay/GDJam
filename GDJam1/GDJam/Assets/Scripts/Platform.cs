@@ -138,13 +138,15 @@ public class Platform : MonoBehaviour
                     platformy = speed;
 
             }
-            
+
+            platformx *= 50 * Time.deltaTime;
+
             if ((temp.x < (width) / 2 && temp.x > -(width) / 2 && temp.y > 0.5 && temp.y < 2.45) && isPlatform)
             {
-                player.transform.Translate(Vector3.right * platformx + Vector3.up * platformy);
+                player.transform.Translate(Vector3.right * platformx + Vector3.up * platformy * 50 * Time.deltaTime);
             }
 
-            GetComponent<Transform>().Translate(Vector3.right * platformx + Vector3.up * platformy);
+            GetComponent<Transform>().Translate(Vector3.right * platformx + Vector3.up * platformy * 50 * Time.deltaTime);
         }
 
     }
